@@ -1,0 +1,29 @@
+.group_name {
+    display: flex;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    gap: 1.2rem;
+
+    .group_short {
+        color: #FFF;
+        border-radius: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 4rem;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .group_name {
+        font-size: 1.2rem;
+        gap: 1rem;
+
+        .group_short {
+            width: 3.5rem;
+            height: 3.5rem;
+        }
+    }
+}

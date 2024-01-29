@@ -1,0 +1,10 @@
+.screen-error {
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  width: 100vw;
+  height: 100vh;
+  background-color: #DAE5F5;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
